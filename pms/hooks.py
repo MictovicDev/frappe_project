@@ -1,9 +1,26 @@
 app_name = "pms"
 app_title = "Project Management System"
 app_publisher = "Dev-Mike"
-app_description = "A Simple app used built for project management"
+app_description = "A Simple app built for project management"
 app_email = "awaemekamichael@gmail.com"
 app_license = "mit"
+
+
+# api = {
+#     "methods": [
+#         {"get": "pws.get_tasks"}
+#     ]
+# }
+
+override_whitelisted_methods = {
+    "pms.task": "pms.task",
+    "pms.project": "pms.project"
+}
+
+
+
+
+
 
 # Apps
 # ------------------
