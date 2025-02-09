@@ -1,6 +1,6 @@
 ### Project Management System
 
-A Simple app used built for project management
+A Simple app used for project management
 
 ### Installation
 
